@@ -37,6 +37,7 @@ button {
 .order_items > h1, p{
     text-align: center;
 }
+/* ladies wear category */
 .ladies_shoes {
 	padding: 10px 10px 10px;
 	margin-left: 100px;
@@ -46,7 +47,7 @@ button {
 	margin-left: 80px;
 	font-size: 25px;
 	line-height: 30px;
-	font-weight: bold;
+	font-weight: bolder;
 }
 .sneakers {
 	display: flex;
@@ -56,13 +57,17 @@ button {
 	object-fit: scale-down;
 	padding: 10px 10px 10px;
 }
+.sneakers > .title > h2 {
+    padding: 10px 10px 10px;
+	margin-left: 80px;
+	font-size: 25px;
+	line-height: 30px;
+	font-weight: bold;
+}
 img {
     width: 50%;
     object-fit: scale-down;
 	padding: 10px 5px 10px;
+    margin-top: 10px;
 }
 
-/* .sneakers > p {
-	margin-left: 0px;
-	padding-left: 5px;
-} */
