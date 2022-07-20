@@ -1,4 +1,4 @@
-* {
+/* * {
     margin: 0;
     padding: 0;
 }
@@ -13,17 +13,17 @@
     /* color: black; */
     /* display: flex;
     align-items: center;
-    justify-content: center; */
-}
-.account {
+    /* justify-content: center; */
+
+/* .account {
     width: 600px;
     height: 600px;
     position: relative;
     background-color:#1DA3EE;
     margin: 6% auto;
-}
+} */
 
-.box {
+/* .box {
     position: relative;
     width: 200px;
     height: 40px; 
@@ -32,10 +32,9 @@
     border-radius: 20px;
     /* background-color: white; */
     margin: 40px auto;
-}
+ */ */ */
 /* .card1, .card2 {
     background-position: absolute;
     height: 100%;
     width: 100%;
     
-}  */
