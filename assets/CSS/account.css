@@ -7,11 +7,12 @@
     box-sizing: border-box;
     border: 2px solid black;
     justify-content: center; 
-    box-shadow: #1da3ee;
+    box-shadow: 10px  #1da3ee;
     width: 700px;
     align-items: center;
     margin: 100px auto;
     padding: 150px;
+    background-color: #1da3ee;
   }
   input[type=text], input[type=password] {
     width: 300px;
@@ -34,6 +35,9 @@
     border: 1px solid #1da3ee;
     margin-bottom: 25px;
     
+  }
+  .signin {
+    background-color: #1da3ee;
   }
 
   /* button section */
