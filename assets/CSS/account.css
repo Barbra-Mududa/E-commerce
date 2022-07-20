@@ -11,13 +11,27 @@
     border: none;
     background: #f1f1f1;
   }
-  
+
   /* style labels */
   input[type=text]:focus, input[type=password]:focus {
     background-color: #ddd;
-    outline: none;
+    outline: none
   }
   hr {
     border: 1px solid #1da3ee;
     margin-bottom: 25px;
+    
+  }
+
+  /* button section */
+  button {
+    background-color: lightgray;
+    color: black;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+    /* opacity: 0.9; */
+
   }
