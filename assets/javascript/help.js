@@ -1,50 +1,40 @@
 // Get data
-let data = document.querySelector("data");
+function validate{
+  var name = document.getElementById("name").value;
+  var subject = document.getElementById("subject").value;
+  var phone = document.getElementById("phone").value;
+  var email = document.getElementById("email").value;
+  var message = document.getElementById("message").value;
+  var error_message = document.getElementById("error_message");
 
-const nameInput = document.getElementById("#name");
-const email = document.getElementById("#email");
-const message = document.getElementById("#message");
-const success = document.getElementById("#success");
-const errorNodes = document.getElementById("#.error");
-// validate data
-function validateForm(){
-
-     clearmessage();
-     let errorFlag = False;
-
-    if(nameInput.Value.length < 1){
-        errorNodes[0].innerHTML = "Name cannot be blank";
-        nameInput.classList.add("error-border");
-        errorFlag = true;
-    }
-    if(!emailIsValid(email.value)){
-        errorNodes[0].innerHTML = "Invalid email address";
-        email.classList.add("error-border");
-    }
-    if(message.value.length < 1){
-        errorNodes[0].innerHTML = "Please enter message";
-        message.classList.add("error-border");
-        errorFlag = true;
-    }
-    if (!errorFlag){
-        success.innerHTML = "Sucess!"
-    }
-
+  error_message.style.padding = "10px";
+  var text;
+  if(name.length < 5){
+    text = "Please Enter valid Name";
+    error_message.innerHTML = text;
+    return false;
+  }
+  if(subject.length < 10){
+    text = "Please Enter Correct Subject";
+    error_message.innerHTML = text;
+    return false;
+  }
+  if(isNaN(phone) || phone.length != 10){
+    text = "Please Enter valid Phone Number";
+    error_message.innerHTML = text;
+    return false;
+  }
+  if(email.indexOf("@") == -1 || email.length < 6){
+    text = "Please Enter valid Email";
+    error_message.innerHTML = text;
+    return false;
+  }
+  if(message.length <= 140){
+    text = "Please Enter More Than 140 Characters";
+    error_message.innerHTML = text;
+    return false;
+  }
+  alert("Form Submitted Successfully!");
+  return true;
 }
-// clear error/ success messages
-function clearmessage(){
-    for(let i = 0; i < errorNodes.length; i++){
-        errorNodes[i].innerHTML = "";
-
-    }
-    success.innerText = "";
-    nameInput.classList.remove("error-border");
-    email.classList.remove("error-border");
-    message.classList.remove("error-border");
-
-}
-// check if email is valid
-function emailIsValid(email){
-    let pattern = /\5+0\5*\.\5+/;
-    return pattern.test(email);
-}
+  
