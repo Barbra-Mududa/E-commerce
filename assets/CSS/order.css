@@ -9,19 +9,32 @@
     margin:auto ;
    
 } */
+/* navbar */
 .shop_logo {
     display: flex;
     background-color: #1da3ee;
     align-items: center;
-    justify-content: center;
+    /* justify-content: center; */
 }
-.logo_title {
-    margin-left: 600px;
+.logo_title h1 > p {
+    /* margin-left: 400px; */
+    width: 50%;
+    /* float: right; */
 }
+.logo_title h1, h1 > p{
+    /* margin-left: 350px; */
+    width: 50%;
+   margin-left: 50px;
+}
+
 .order_button {
     padding-right: 80px;
 }
 button {
     padding: 10px;
     width: 200px;
+}
+/* order items section */
+.order_items > h1, p {
+    text-align: center;
 }
