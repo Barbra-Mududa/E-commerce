@@ -3,19 +3,24 @@
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <link rel="stylesheet" href="assets/CSS/account.css">
     <title>Account</title>
+    <link rel="stylesheet" href="/assets/CSS/account.css">
 </head>
 <body>
     <div class="container">
-        <div class="account">
+        <form class="form" id="signin">
+            <h1 class="title">Sign In</h1>
+            <div class="form__message--error">Incorrect username/Password incorrect</div> 
             <div class="box">
-                <div class="card1"></div>
-                <div class="card2"></div>
+                <input type="text" class="box_input" autofocus placeholder="Username or email">
+                <div class="form__input-error">Error message</div>
+               
             </div>
-        </div>
+        
+        </form>
+        
     </div>
 
-    <script src="assets/javascript/account.js"></script>
+    <script src="/assets/javascript/account.js"></script>
 </body>
 </html>
