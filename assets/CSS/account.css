@@ -1,40 +1,4 @@
-/* * {
+* {
     margin: 0;
     padding: 0;
 }
-.container {
-    width: 100%;
-    height: 100%;
-    font-family: sans-serif;
-    background-color: white;
-    background-position: center;
-    background-size: cover;
-    position: absolute;
-    /* color: black; */
-    /* display: flex;
-    align-items: center;
-    /* justify-content: center; */
-
-/* .account {
-    width: 600px;
-    height: 600px;
-    position: relative;
-    background-color:#1DA3EE;
-    margin: 6% auto;
-} */
-
-/* .box {
-    position: relative;
-    width: 200px;
-    height: 40px; 
-    /* position: relative; */
-    box-shadow: 0 0 20px 9px black;
-    border-radius: 20px;
-    /* background-color: white; */
-    margin: 40px auto;
- */ */ */
-/* .card1, .card2 {
-    background-position: absolute;
-    height: 100%;
-    width: 100%;
-    
