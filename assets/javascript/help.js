@@ -5,6 +5,8 @@ function validate(){
     var email = document.getElementById("email").value;
     var message = document.getElementById("message").value;
     var error_message = document.getElementById("error_message");
+
+    object.onclick = function(){myScript};
     
     error_message.style.padding = "10px";
     
