@@ -125,4 +125,88 @@ img {
 	line-height: 30px;
 	font-weight: bold;
 }
+/* male wear category */
+.men_shoes {
+	padding: 10px 10px 10px;
+	margin-left: 100px;
+}
+.men_shoes > h2 {
+	padding: 10px 10px 10px;
+	margin-left: 80px;
+	font-size: 25px;
+	line-height: 30px;
+	font-weight: bolder;
+}
+.men_sneakers {
+	display: flex;
+	justify-content: space-around;
+	flex-direction: row;
+	margin-left: 100px;
+	object-fit: scale-down;
+	padding: 10px 10px 10px;
+}
+.men_sneaker > .title > h2 {
+    padding: 10px 10px 10px;
+	margin-left: 80px;
+	font-size: 25px;
+	line-height: 30px;
+	font-weight: bold;
+}
+img {
+    width: 50%;
+    object-fit: scale-down;
+	padding: 10px 5px 10px;
+    margin-top: 10px;
+}
+.leather {
+	display: flex;
+	justify-content: space-around;
+	flex-direction: row;
+	margin-left: 100px;
+	object-fit: scale-down;
+	padding: 10px 10px 10px;
+}
+.leather > .title > h2 {
+    padding: 10px 10px 10px;
+	margin-left: 80px;
+	font-size: 25px;
+	line-height: 30px;
+	font-weight: bold;
+}
 
+img {
+    width: 50%;
+    object-fit: scale-down;
+	padding: 10px 5px 10px;
+    margin-top: 10px;
+}
+.men_boots {
+	display: flex;
+	justify-content: space-around;
+	flex-direction: row;
+	margin-left: 100px;
+	object-fit: scale-down;
+	padding: 10px 10px 10px;
+}
+.men_boots > .title > h2 {
+    padding: 10px 10px 10px;
+	margin-left: 80px;
+	font-size: 25px;
+	line-height: 30px;
+	font-weight: bold;
+}
+.loafers {
+	display: flex;
+	justify-content: space-around;
+	flex-direction: row;
+	margin-left: 100px;
+	object-fit: scale-down;
+	padding: 10px 10px 10px;
+}
+.loafers > .title > h2 {
+    padding: 10px 10px 10px;
+	margin-left: 80px;
+	font-size: 25px;
+	line-height: 30px;
+	font-weight: bold;
+}
