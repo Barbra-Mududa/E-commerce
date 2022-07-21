@@ -92,3 +92,19 @@ img {
 	padding: 10px 5px 10px;
     margin-top: 10px;
 }
+.boots {
+	display: flex;
+	justify-content: space-around;
+	flex-direction: row;
+	margin-left: 100px;
+	object-fit: scale-down;
+	padding: 10px 10px 10px;
+}
+.boots > .title > h2 {
+    padding: 10px 10px 10px;
+	margin-left: 80px;
+	font-size: 25px;
+	line-height: 30px;
+	font-weight: bold;
+}
+
