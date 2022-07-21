@@ -16,6 +16,7 @@ body{
 .menu-bar{
     background-color: blue;
     text-align: center;
+    float: right;
 
 }
 .menu-bar ul{
@@ -32,7 +33,7 @@ body{
     text-decoration: none;
     color: #fff;
 }
-.active, .menu-bar ul li:hover{
+.menu-bar ul li:hover{
     background: tomato;
     border-radius: 3px;
 }
