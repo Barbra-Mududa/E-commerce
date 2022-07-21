@@ -1,0 +1,52 @@
+* {
+    margin: 0;
+    padding: 0;
+  }
+  /* container */
+  .container{
+    box-sizing: border-box;
+    border: 2px solid black;
+    justify-content: center; 
+    box-shadow: 10px  #1da3ee;
+    width: 700px;
+    align-items: center;
+    margin: 100px auto;
+    padding: 150px;
+    background-color: #1da3ee;
+  }
+  input[type=text], input[type=password] {
+    width: 300px;
+    height: 60%;
+    padding: 15px;
+    margin: 5px 30px 22px 30px;
+    display: inline-block;
+    border: none;
+    background: #f1f1f1;
+    /* box-sizing: border-box;
+    justify-content: center; */
+  }
+
+  /* style labels */
+  input[type=text]:focus, input[type=password]:focus {
+    background-color: #ddd;
+    outline: none
+  }
+  hr {
+    border: 1px solid #1da3ee;
+    margin-bottom: 25px;
+    
+  }
+ 
+
+  /* button section */
+  button {
+    background-color: lightgray;
+    color: black;
+    padding: 20px 60px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    /* width: 70px; */
+    /* opacity: 0.9; */
+
+  }

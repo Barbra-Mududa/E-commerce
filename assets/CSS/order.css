@@ -1,0 +1,212 @@
+* {
+    width: 100%;
+    /* height: 100%; */
+    padding: 0;
+    font-family: sans-serif;
+}
+/* .navbar_section {
+    background-color: ;
+    margin:auto ;
+   
+} */
+/* navbar */
+.shop_logo {
+    display: flex;
+    background-color: #1da3ee;
+    align-items: center;
+    /* justify-content: center; */
+}
+.logo_title h1 > p {
+    /* margin-left: 400px; */
+    width: 50%;
+    float: right;
+}
+.logo_title h1 {
+    /* margin-left: 350px; */
+    width: 50%;
+}
+
+.order_button {
+    padding-right: 80px;
+}
+button {
+    padding: 10px;
+    width: 200px;
+}
+/* order items section */
+.order_items{
+	width: 80%;
+}
+.order_items > h1, p{
+    text-align: center;
+}
+/* ladies wear category */
+.ladies_shoes {
+	padding: 10px 10px 10px;
+	margin-left: 100px;
+}
+.ladies_shoes > h2 {
+	padding: 10px 10px 10px;
+	margin-left: 80px;
+	font-size: 25px;
+	line-height: 30px;
+	font-weight: bolder;
+}
+.sneakers {
+	display: flex;
+	justify-content: space-around;
+	flex-direction: row;
+	margin-left: 100px;
+	object-fit: scale-down;
+	padding: 10px 10px 10px;
+}
+.sneakers > .title > h2 {
+    padding: 10px 10px 10px;
+	margin-left: 80px;
+	font-size: 25px;
+	line-height: 30px;
+	font-weight: bold;
+}
+img {
+    width: 50%;
+    object-fit: scale-down;
+	padding: 10px 5px 10px;
+    margin-top: 10px;
+}
+.heels {
+	display: flex;
+	justify-content: space-around;
+	flex-direction: row;
+	margin-left: 100px;
+	object-fit: scale-down;
+	padding: 10px 10px 10px;
+}
+.heels > .title > h2 {
+    padding: 10px 10px 10px;
+	margin-left: 80px;
+	font-size: 25px;
+	line-height: 30px;
+	font-weight: bold;
+}
+
+img {
+    width: 50%;
+    object-fit: scale-down;
+	padding: 10px 5px 10px;
+    margin-top: 10px;
+}
+.boots {
+	display: flex;
+	justify-content: space-around;
+	flex-direction: row;
+	margin-left: 100px;
+	object-fit: scale-down;
+	padding: 10px 10px 10px;
+}
+.boots > .title > h2 {
+    padding: 10px 10px 10px;
+	margin-left: 80px;
+	font-size: 25px;
+	line-height: 30px;
+	font-weight: bold;
+}
+.canvas {
+	display: flex;
+	justify-content: space-around;
+	flex-direction: row;
+	margin-left: 100px;
+	object-fit: scale-down;
+	padding: 10px 10px 10px;
+}
+.canvas > .title > h2 {
+    padding: 10px 10px 10px;
+	margin-left: 80px;
+	font-size: 25px;
+	line-height: 30px;
+	font-weight: bold;
+}
+/* male wear category */
+.men_shoes {
+	padding: 10px 10px 10px;
+	margin-left: 100px;
+}
+.men_shoes > h2 {
+	padding: 10px 10px 10px;
+	margin-left: 80px;
+	font-size: 25px;
+	line-height: 30px;
+	font-weight: bolder;
+}
+.men_sneakers {
+	display: flex;
+	justify-content: space-around;
+	flex-direction: row;
+	margin-left: 100px;
+	object-fit: scale-down;
+	padding: 10px 10px 10px;
+}
+.men_sneaker > .title > h2 {
+    padding: 10px 10px 10px;
+	margin-left: 80px;
+	font-size: 25px;
+	line-height: 30px;
+	font-weight: bold;
+}
+img {
+    width: 50%;
+    object-fit: scale-down;
+	padding: 10px 5px 10px;
+    margin-top: 10px;
+}
+.leather {
+	display: flex;
+	justify-content: space-around;
+	flex-direction: row;
+	margin-left: 100px;
+	object-fit: scale-down;
+	padding: 10px 10px 10px;
+}
+.leather > .title > h2 {
+    padding: 10px 10px 10px;
+	margin-left: 80px;
+	font-size: 25px;
+	line-height: 30px;
+	font-weight: bold;
+}
+
+img {
+    width: 50%;
+    object-fit: scale-down;
+	padding: 10px 5px 10px;
+    margin-top: 10px;
+}
+.men_boots {
+	display: flex;
+	justify-content: space-around;
+	flex-direction: row;
+	margin-left: 100px;
+	object-fit: scale-down;
+	padding: 10px 10px 10px;
+}
+.men_boots > .title > h2 {
+    padding: 10px 10px 10px;
+	margin-left: 80px;
+	font-size: 25px;
+	line-height: 30px;
+	font-weight: bold;
+}
+.loafers {
+	display: flex;
+	justify-content: space-around;
+	flex-direction: row;
+	margin-left: 100px;
+	object-fit: scale-down;
+	padding: 10px 10px 10px;
+}
+.loafers > .title > h2 {
+    padding: 10px 10px 10px;
+	margin-left: 80px;
+	font-size: 25px;
+	line-height: 30px;
+	font-weight: bold;
+}
