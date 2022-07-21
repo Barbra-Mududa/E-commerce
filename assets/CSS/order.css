@@ -70,4 +70,25 @@ img {
 	padding: 10px 5px 10px;
     margin-top: 10px;
 }
+.heels {
+	display: flex;
+	justify-content: space-around;
+	flex-direction: row;
+	margin-left: 100px;
+	object-fit: scale-down;
+	padding: 10px 10px 10px;
+}
+.heels > .title > h2 {
+    padding: 10px 10px 10px;
+	margin-left: 80px;
+	font-size: 25px;
+	line-height: 30px;
+	font-weight: bold;
+}
 
+img {
+    width: 50%;
+    object-fit: scale-down;
+	padding: 10px 5px 10px;
+    margin-top: 10px;
+}
