@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link href='https://unpkg.com/boxicons@2.0.9/css/boxicons.min.css' rel='stylesheet'>
+	<link rel="stylesheet" href="/assets/CSS/vendor.css">
+	<title>Shoe Fly Vendor Registration Form</title>
+</head>
+<body>
+
+
+	<div class="header">
+
+
+	</div>
+	
+	<div class="container">
+		<form action="#" class="login active">
+			<h2 class="title">Login to your Shoe Fly account</h2>
+			<div class="form-group">
+				<label for="email">Registered email</label>
+				<div class="input-group">
+					<input type="email" id="email" placeholder="Email address">
+					<i class='bx bx-envelope'></i>
+				</div>
+			</div>
+			<div class="form-group">
+				<label for="password">Password</label>
+				<div class="input-group">
+					<input type="password" pattern=".{8,}" id="password" placeholder="Your password">
+					<i class='bx bx-lock-alt' ></i>
+				</div>
+				<span class="help-text">At least 8 characters</span>
+			</div>
+			<button type="submit" class="btn-submit">Login</button>
+			<a href="#">Forgot password?</a>
+			<p>I do not have an account. <a href="#" onclick="switchForm('register', event)">Register</a></p>
+		</form>
+
+		<form action="#" class="register">
+			<h2 class="title">Get Started, Register your Shoe Fly account</h2>
+			<div class="form-group">
+				<label for="email">Email</label>
+				<div class="input-group">
+					<input type="email" id="email" placeholder="Email address">
+					<i class='bx bx-envelope'></i>
+				</div>
+			</div>
+			<div class="form-group">
+				<label for="password">Password</label>
+				<div class="input-group">
+					<input type="password" pattern=".{8,}" id="password" placeholder="Your password">
+					<i class='bx bx-lock-alt' ></i>
+				</div>
+				<span class="help-text">At least 8 characters</span>
+			</div>
+			<div class="form-group">
+				<label for="confirm-pass">Confirm password</label>
+				<div class="input-group">
+					<input type="password" id="confirm-pass" placeholder="Enter password again">
+					<i class='bx bx-lock-alt' ></i>
+				</div>
+				<span class="help-text">Confirm password must be same with password</span>
+			</div>
+				<!-- additions -->
+			<div class="form-group">
+				<label for="confirm-pass">Full Name</label>
+				<div class="input-group">
+					<input type="text" id="confirm-pass" placeholder="Enter your full name">
+				</div>
+				<span class="help-text">Enter your full name as appears on ID/Passport</span>
+			</div>
+			<div class="form-group">
+				<label for="confirm-pass">Phone number</label>
+				<div class="input-group">
+					<input type="number" id="confirm-pass" placeholder="Enter your phone number">
+				</div>
+				<span class="help-text">Enter your phone number</span>
+			</div>
+
+			<div class="form-group">
+				<label for="confirm-pass">ID/Passport Number</label>
+				<div class="input-group">
+					<input type="number" id="confirm-pass" placeholder="Please enter your national ID/Passport number">
+					<i class='bx bx-lock-alt' ></i>
+				</div>
+				<span class="help-text">Please enter your national ID/Passport number</span>
+			</div>
+
+			<div class="form-group">
+				<label for="confirm-pass">Product Type</label>
+				<div class="input-group">
+					<input type="text" id="confirm-pass" placeholder="What are you selling?">
+					<i class='bx bx-lock-alt' ></i>
+				</div>
+				<span class="help-text">(i.e Furniture, Electronics, Shoes)</span>
+			</div>
+
+			<div class="form-group">
+				<label for="confirm-pass">Product Description</label>
+				<div class="input-group">
+					<input type="text" id="confirm-pass" placeholder="Describe what you are selling">
+					<i class='bx bx-lock-alt' ></i>
+				</div>
+				<span class="help-text">(i.e Airfoce 1 Sneakers in good condition)</span>
+			</div>
+
+			<div class="form-group">
+				<label for="confirm-pass">Serial number/Model number</label>
+				<div class="input-group">
+					<input type="number" id="confirm-pass" placeholder="Serial number/Model number">
+					<i class='bx bx-lock-alt' ></i>
+				</div>
+				<span class="help-text">Serial number/Model number (if available)</span>
+			</div>
+
+			<div class="form-group">
+				<label for="confirm-pass">Location</label>
+				<div class="input-group">
+					<input type="text" id="confirm-pass" placeholder="Please enter your location">
+					<i class='bx bx-lock-alt' ></i>
+				</div>
+				<span class="help-text">(i.e Laikipia Gardens, Oloitoktok Road, Kileleshwa, Nairobi)</span>
+			</div>
+
+			<div class="form-group">
+				<label for="confirm-pass">Viewing Adress</label>
+				<div class="input-group">
+					<input type="text" id="confirm-pass" placeholder="For products authentication">
+					<i class='bx bx-lock-alt' ></i>
+				</div>
+				<span class="help-text">Where can clients view and inspect your products?</span>
+			</div>
+
+			<div class="form-group">
+				<label for="confirm-pass">Emergency Contact Name</label>
+				<div class="input-group">
+					<input type="text" id="confirm-pass" placeholder="Emergency Contact Name">
+					<i class='bx bx-lock-alt' ></i>
+				</div>
+				<span class="help-text">Who can we call incase of emergency?</span>
+			</div>
+			
+
+			<div class="form-group">
+				<label for="confirm-pass">Emergency Contact Number</label>
+				<div class="input-group">
+					<input type="number" id="confirm-pass" placeholder="Emergency Contact Number">
+					<i class='bx bx-lock-alt' ></i>
+				</div>
+				<span class="help-text">Who can we call incase of emergency?</span>
+			</div>
+
+			<div class="upload">
+
+				<input type="file" id="file" accept="image/*">
+				<label for="file" class="lbl">
+					<i class="fa-solid fa-file-arrow-up"></i>
+					Upload Product image
+				</label>
+
+
+			</div>
+
+
+			<!-- Additions -->
+			<button type="submit" class="btn-submit"> Register</button>
+			<p>I already have an account. <a href="#" onclick="switchForm('login', event)">Login</a></p>
+		</form>
+	</div>
+<div>
+	
+</div>
+
+	<script src="/assets/javascript/vendor.js"></script>
+</body>
+</html>
